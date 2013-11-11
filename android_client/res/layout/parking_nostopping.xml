@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background"
+        >
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/status_image" android:src="@drawable/parking_nostopping"
+            android:layout_alignParentTop="true"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="You cannot stop here right now."
+            android:id="@+id/status_text"
+            android:layout_below="@+id/status_image" android:textColor="#ff0000"
+            android:textSize="26dp" android:padding="2dp"/>
+</RelativeLayout>

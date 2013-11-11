@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:background="@drawable/background">
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView" android:src="@drawable/parking_unknown"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Scan parking code"
+            android:id="@+id/scan_button" android:layout_alignParentBottom="true" android:textSize="36dp"/>
+</RelativeLayout>
